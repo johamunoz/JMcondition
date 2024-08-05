@@ -1,0 +1,23 @@
+Package: JMcondition
+Type: Package
+Title: Display condidion counts
+Version: 0.1.0
+Author: Johanna Munoz
+Maintainer: Johanna Munoz <munoza.johanna@gmail.com>
+Description: Calculate the condition count from a CDM connection. It also display a condition count (by year or month) across the time frame where observations were recorded.
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Imports: 
+    DatabaseConnector,
+    dplyr,
+    ggplot2,
+    magrittr,
+    plotly,
+    shiny
+License: MIT + file LICENSE
+Suggests: 
+    testthat (>= 3.0.0),
+    Eunomia,
+    magick
+Config/testthat/edition: 3
